@@ -1,0 +1,178 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.container{
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+     box-shadow: 1px 1px 12px #1A1A1D; 
+} 
+
+header{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    background-color: #1A1A1D;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+header .lien img{
+    height: 40px;
+}
+.lien{
+    display: flex;
+}
+.lien span{
+    font-size: 10px;
+    color: white;
+}
+.lien a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.partie3{
+    display: flex;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.text1{
+    width: 60%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.partie4{
+    display: block;
+    width: 100%;
+    background-color: #334D5C;
+}
+.titres{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 30vh;
+}
+
+.logo2{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo2 img{
+    height: 150px;
+}
+
+.titres2{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 60px;
+    padding-left: 30px;
+}
+
+.titres2 h1{
+    margin: 0;
+    font-size: 40px;
+    justify-content: end;
+}
+.titres2 h3{
+    margin: 0;
+    font-size: 25px;
+    justify-content: end;
+}
+
+
+.cartes{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.cartes img{
+    height: 200px;
+}
+.cartes div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.cartes span{
+    width: 75%;
+    padding: 10px;
+}
+
+.cartes button{
+    padding: 10px 50px;
+    margin: 10px;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #555;
+    height: 20vh;
+    width: 100%;
+}
+
+footer img{
+    height: 40px;
+}
+
+.footer{
+    flex-direction: column;
+    display: inline;
+    margin: 40px;
+}
+
+footer img{
+    margin: 1px;
+}
+
+.footer span{
+    color: white;
+}
+.button{
+    border: none;
+    background-color: white;
+}
+.button2{
+    background-color: #393A3B;
+    border: none;
+    color: white;
+}
+
+.partie4{
+    color: white;
+}
